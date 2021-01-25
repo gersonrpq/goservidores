@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func run() {
+func Run() {
 
 	inicio := time.Now()
 	canal := make(chan string)
